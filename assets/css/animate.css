@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
 /*!
 Animate.css - https://daneden.me/animate
 Licensed under the MIT license
@@ -27,7 +30,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes bounce {
+<<<<<<< HEAD
   0%, 20%, 50%, 80%, 100% {
+=======
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
@@ -44,7 +55,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounce {
+<<<<<<< HEAD
   0%, 20%, 50%, 80%, 100% {
+=======
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -69,21 +88,43 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes flash {
+<<<<<<< HEAD
   0%, 50%, 100% {
     opacity: 1;
   }
 
   25%, 75% {
+=======
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     opacity: 0;
   }
 }
 
 @keyframes flash {
+<<<<<<< HEAD
   0%, 50%, 100% {
     opacity: 1;
   }
 
   25%, 75% {
+=======
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     opacity: 0;
   }
 }
@@ -138,36 +179,76 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes shake {
+<<<<<<< HEAD
   0%, 100% {
+=======
+  0%,
+  100% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
+<<<<<<< HEAD
   10%, 30%, 50%, 70%, 90% {
+=======
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
+<<<<<<< HEAD
   20%, 40%, 60%, 80% {
+=======
+  20%,
+  40%,
+  60%,
+  80% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
   }
 }
 
 @keyframes shake {
+<<<<<<< HEAD
   0%, 100% {
+=======
+  0%,
+  100% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
 
+<<<<<<< HEAD
   10%, 30%, 50%, 70%, 90% {
+=======
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
+<<<<<<< HEAD
   20%, 40%, 60%, 80% {
+=======
+  20%,
+  40%,
+  60%,
+  80% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: translateX(10px);
     -ms-transform: translateX(10px);
     transform: translateX(10px);
@@ -252,17 +333,35 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 
+<<<<<<< HEAD
   10%, 20% {
+=======
+  10%,
+  20% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg);
   }
 
+<<<<<<< HEAD
   30%, 50%, 70%, 90% {
+=======
+  30%,
+  50%,
+  70%,
+  90% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg);
   }
 
+<<<<<<< HEAD
   40%, 60%, 80% {
+=======
+  40%,
+  60%,
+  80% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg);
   }
@@ -280,19 +379,37 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 
+<<<<<<< HEAD
   10%, 20% {
+=======
+  10%,
+  20% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: scale(0.9) rotate(-3deg);
     -ms-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg);
   }
 
+<<<<<<< HEAD
   30%, 50%, 70%, 90% {
+=======
+  30%,
+  50%,
+  70%,
+  90% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: scale(1.1) rotate(3deg);
     -ms-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg);
   }
 
+<<<<<<< HEAD
   40%, 60%, 80% {
+=======
+  40%,
+  60%,
+  80% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: scale(1.1) rotate(-3deg);
     -ms-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg);
@@ -401,8 +518,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @-webkit-keyframes bounceIn {
   0% {
     opacity: 0;
+<<<<<<< HEAD
     -webkit-transform: scale(.3);
     transform: scale(.3);
+=======
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 
   50% {
@@ -412,8 +534,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   70% {
+<<<<<<< HEAD
     -webkit-transform: scale(.9);
     transform: scale(.9);
+=======
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 
   100% {
@@ -425,9 +552,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @keyframes bounceIn {
   0% {
     opacity: 0;
+<<<<<<< HEAD
     -webkit-transform: scale(.3);
     -ms-transform: scale(.3);
     transform: scale(.3);
+=======
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 
   50% {
@@ -438,9 +571,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   70% {
+<<<<<<< HEAD
     -webkit-transform: scale(.9);
     -ms-transform: scale(.9);
     transform: scale(.9);
+=======
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 
   100% {
@@ -690,8 +829,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   25% {
+<<<<<<< HEAD
     -webkit-transform: scale(.95);
     transform: scale(.95);
+=======
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 
   50% {
@@ -702,8 +846,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   100% {
     opacity: 0;
+<<<<<<< HEAD
     -webkit-transform: scale(.3);
     transform: scale(.3);
+=======
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 }
 
@@ -715,9 +864,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   25% {
+<<<<<<< HEAD
     -webkit-transform: scale(.95);
     -ms-transform: scale(.95);
     transform: scale(.95);
+=======
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 
   50% {
@@ -729,9 +884,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   100% {
     opacity: 0;
+<<<<<<< HEAD
     -webkit-transform: scale(.3);
     -ms-transform: scale(.3);
     transform: scale(.3);
+=======
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
   }
 }
 
@@ -1543,22 +1704,38 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   40% {
+<<<<<<< HEAD
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+=======
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg)
+      scale(1);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
 
   50% {
+<<<<<<< HEAD
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+=======
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg)
+      scale(1);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
 
   80% {
+<<<<<<< HEAD
     -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
     transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+=======
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg)
+      scale(0.95);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -1581,7 +1758,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   40% {
+<<<<<<< HEAD
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+=======
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg)
+      scale(1);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -ms-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
     -webkit-animation-timing-function: ease-out;
@@ -1589,7 +1771,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   50% {
+<<<<<<< HEAD
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+=======
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg)
+      scale(1);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -ms-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -webkit-animation-timing-function: ease-in;
@@ -1597,9 +1784,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   80% {
+<<<<<<< HEAD
     -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
     -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
     transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+=======
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg)
+      scale(0.95);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -2575,7 +2769,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
+<<<<<<< HEAD
   20%, 60% {
+=======
+  20%,
+  60% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: rotate(80deg);
     transform: rotate(80deg);
     -webkit-transform-origin: top left;
@@ -2622,7 +2821,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
+<<<<<<< HEAD
   20%, 60% {
+=======
+  20%,
+  60% {
+>>>>>>> c6f67c74ef957c301c8b3c4b301782c1462b59b3
     -webkit-transform: rotate(80deg);
     -ms-transform: rotate(80deg);
     transform: rotate(80deg);
