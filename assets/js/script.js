@@ -2,14 +2,13 @@
 transform
 ********************/
 $(window).on('load', () => {
-    let ua = navigator.userAgent.toLowerCase(); 
+    let ua = navigator.userAgent.toLowerCase();
     let isSafari = false;
     try {
-        isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification);
-    }
-    catch(err) {}
-    isSafari = (isSafari || ((ua.indexOf('safari') != -1)&& (!(ua.indexOf('chrome')!= -1) && (ua.indexOf('version/')!= -1))));
-    if ( isSafari ) {
+        isSafari = /constructor/i.test(window.HTMLElement) || (function(p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification);
+    } catch (err) {}
+    isSafari = (isSafari || ((ua.indexOf('safari') != -1) && (!(ua.indexOf('chrome') != -1) && (ua.indexOf('version/') != -1))));
+    if (isSafari) {
         document.querySelector(':root').style.setProperty('--transform-fix', 'translateZ(0)');
     }
 })
@@ -18,7 +17,7 @@ $(window).on('load', () => {
 /********************
 header
 ********************/
-$(".header .header__bars").on('click', function () {
+$(".header .header__bars").on('click', function() {
 
     var selector = $(".header .header__nav")
 
@@ -31,7 +30,7 @@ $(".header .header__bars").on('click', function () {
     }
 });
 
-$(".header .header__nav span").on('click', function () {
+$(".header .header__nav span").on('click', function() {
 
     var selector = $(".header .header__nav")
 
@@ -44,13 +43,13 @@ $(".header .header__nav span").on('click', function () {
     }
 });
 
-$(document).on('click', 'a[href^="#"]', function (event) {
+$(document).on('click', 'a[href^="#"]', function(event) {
     event.preventDefault();
     let elementId = $(event.target).attr('href');
     if (elementId == '#') return;
 
     $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
+        scrollTop: $($.attr(this, 'href')).offset().top - 80
     }, 1000, 'swing');
 });
 
@@ -159,12 +158,12 @@ var related_post = new Swiper('.blog_related-slider', {
 /********************
 accordion
 ********************/
-$('.card').on('hide.bs.collapse', function (e) {
+$('.card').on('hide.bs.collapse', function(e) {
     var parentId = $(e.target).parent().attr('id');
     $(`#${parentId} > .card-header > h5`).addClass('hidden');
 });
 
-$('.card').on('show.bs.collapse', function (e) {
+$('.card').on('show.bs.collapse', function(e) {
     var parentId = $(e.target).parent().attr('id');
     $(`#${parentId} > .card-header > h5`).removeClass('hidden');
 });
@@ -206,62 +205,3 @@ $('.nav__dropdown-info').on('click', (e) => {
 youtube defer
 ********************/
 window.addEventListener('load', ytdefer_setup);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
