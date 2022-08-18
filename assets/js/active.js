@@ -1,9 +1,13 @@
-        wow = new WOW({
-            animateClass: 'animate__animated',
-            offset: 100,
+window.onload = function () {
+    wow = new WOW({
+        animateClass: 'animate__animated',
+        offset: 100,
 
-        });
-        wow.init();
+    });
+    wow.init();
+}        
+
+
         //互動穿衣試鏡特效
         let growth_box = document.querySelectorAll(".js_growBox");
         let js_growth_img = document.querySelector(".js_growth_img");
