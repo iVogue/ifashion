@@ -164,12 +164,16 @@
  } 
 }
 .banner_button{
-    position: relative;
-    z-index: 99;
-    margin-top: -8rem;
-    padding-right: 10px;
-    padding-left: 10px;
-   > div {
+    position: absolute;
+        z-index: 99;
+        margin-top: -13rem;
+        margin-bottom: 5rem;
+        padding-right: 10px;
+        padding-left: 10px;
+        bottom: 5rem;
+        width: 100%;
+
+   div {
     padding: 0 5px;
 }
 }
@@ -2463,7 +2467,8 @@ background: linear-gradient(135deg,  #fe882e 1%,#ffbf5e 100%); /* W3C, IE10+, FF
             background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 15) 5%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 15%, white 16%);
         }
         @media (max-width: 575px) {
-            padding: 5rem 1rem 3rem;
+            padding: 15rem 1rem 3rem;
+            margin-top: -31vw;
         }
     }
     
